@@ -1,0 +1,15 @@
+.button__btn {
+    background: var(--cor_destaque);
+    color: var(--cor_texto_botao);
+    outline: none;
+    border: none;
+    border-radius: var(--rounded-btn);
+    padding: .9rem 1.5rem;
+    font-size: var(--texto);
+    font-weight: var(--font_medium);
+    font-family: var(--DMSans);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}

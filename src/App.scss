@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root {
+    // Cores Primarias
+    --cor_destaque: #69B99D;
+    --cor_hover: #CCF4E6;
+    --cor_hover_opacity: #CCF4E634;
+
+    // Cores Textos
+    --cor_titulo: #0F241D;
+    --cor_subtitulo: #767676;
+    --cor_texto: #0F241D;
+    --cor_legenda: #767676;
+    --cor_texto_botao: #F9F9F9;
+    --cor_sombra: #00000012;
+
+    // Cores BG
+    --cor_bg: #F9F9F9;
+    --cor_branco: #FFFFFF;
+    --cor_desabilitado: #E4E4E4;
+
+    // Tamanho de Font
+    --titulo: 36px;
+    --card: 24px;
+    --subtitulo: 18px;
+    --texto: 16px;
+
+    // Fonts
+    --font_regular: 400;
+    --font_medium: 500;
+    --font_bold: 700;
+
+    // Line height
+    --lh_texto: 1.8rem;
+
+    // Font Family
+    --Poppins: 'Poppins', sans-serif;
+    --DMSans: 'DM Sans', sans-serif;
+
+    // Transition
+    --hover: all 0.1s ease-in-out;
+    --click: all 0.3s ease-in-out;
+    --select: all 0.5s ease-in-out;
+
+    // Rounded border
+    --rounded-btn: 4px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    color: inherit;
+    font-family: var(--Poppins);
+    font-weight: var(--font_regular);
+
+    // overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-padding-top: 125px;
+}
+
+.center {
+    max-width: 1120px;
+    // padding: 0 2%;
+    margin: 0 auto;
+}
+
+.flex__row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex__col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.primary {
+    background: var(--cor_bg);
+
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to left, var(--cor_destaque), var(--cor_hover_opacity)) 1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.secondary {
+    background: var(--cor_branco);
+
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to right, var(--cor_destaque), var(--cor_hover_opacity)) 1;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}

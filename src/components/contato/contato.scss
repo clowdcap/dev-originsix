@@ -1,0 +1,55 @@
+section.contato {
+    width: 100%;
+    padding: 6rem 0;
+
+    .container__contato {
+        display: flex;
+        flex-direction: row;
+
+
+        .titulo__contato {
+            width: 100%;
+            flex: 1;
+        }
+
+        .lista__contato {
+            width: 100%;
+            flex: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+                
+                
+                li {
+                    display: flex;
+                    flex-direction: row;
+                    gap: 1rem;
+                    align-items: center;
+                    
+                    img {
+                        width: 25px;
+                    }
+                    span {
+                        font-size: var(--legenda);
+                        color: var(--cor_legenda);
+                        font-family: var(--DMSans);
+                        line-height: var(--lh_texto);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .container__contato {
+        flex-direction: column !important;
+        gap: 5rem;
+    }
+   
+}

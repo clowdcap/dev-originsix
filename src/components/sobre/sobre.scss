@@ -1,0 +1,55 @@
+section.sobre {
+    width: 100%;
+    padding: 2rem 0;
+
+    .container__sobre {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 5rem 0 8rem 0;
+        gap: 5rem;
+
+        .image__sobre {
+            width: 40%;
+            
+            img {
+                width: 100%;
+            }
+        }
+
+        .texto__sobre {
+            width: 60%;
+
+            .titulo__sobre {
+                font-size: var(--titulo);
+                color: var(--cor_titulo);
+            }
+            
+            .conteudo__sobre {
+                padding: .5rem 0;
+                font-size: var(--texto);
+                color: var(--cor_legenda);
+
+                        font-family: var(--DMSans);
+        line-height: var(--lh_texto);
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 740px) {
+    .container__sobre {
+        flex-direction: column !important;
+    }
+
+    .titulo__sobre,
+    .image__sobre {
+        width: 100% !important;
+    }
+
+    .texto__sobre {
+        padding: 0 5%;
+        width: 100% !important;
+    }
+}
