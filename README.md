@@ -1,3 +1,5 @@
+<div align="center"> 
+
 # dev-originsix
 ### Rocketseat Template on Figma
 
@@ -18,3 +20,6 @@ Mobile preview do template
 
 Video de apresentação:
 https://dms.licdn.com/playlist/C4D05AQEWXH9KmBsgmw/mp4-640p-30fp-crf28/0/1674593086223?e=1675198800&v=beta&t=Q0Te7Sa_AA5z686nbUhITYJ6eQ6hwBISGOnlZpjcCEM
+
+  
+</div>
